@@ -136,10 +136,47 @@ body {
     font-size: 3.2rem;
     color: #666666;
     margin-bottom: 1.2rem;
+    line-height: 1.2;
   }
 
   .concert-location {
     font-weight: 400;
     font-size: 1.4rem;
+  }
+
+  /* Program-Section */
+
+  .section-program {
+    background-image: url(assets/img/checked-pattern.png);
+    background-repeat: repeat;
+    background-color: rgb(39, 42, 50);
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .heading-tertiary {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .program-details {
+    display: flex;
+    gap: 1.8rem;
+    align-self: center;
+    justify-content: center;
+    background-color: #e6e6e625;
+    margin: 1.4rem;
+    padding: 1.2rem;
+  }
+  .program-details img {
+    display: inline-block;
+  }
+  .program-title {
+    color: #ec5242;
+  }
+
+  .program-info {
+    color: #e6e6e6;
   }
 }
