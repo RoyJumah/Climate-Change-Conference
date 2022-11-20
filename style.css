@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  margin: 9.6rem 2.4rem;
+  padding: 9.6rem 2.4rem;
 }
 @media (max-width: 768px) {
   .hamburger {
@@ -86,12 +86,15 @@ body {
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 3.8rem;
-    color: #b30000;
+    color: #ec5242;
   }
 
   .headline-info {
-    font-size: 3.2rem;
-    color: #a10000;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    color: #ec5242;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
   }
 
   .concert-info {
@@ -99,12 +102,15 @@ body {
     font-weight: 400;
     line-height: 1.6;
     letter-spacing: 0.75;
+    border: 2px solid #fff;
+    padding: 1.2rem;
+    margin-bottom: 2.4rem;
   }
 
   .music-icon {
     height: 3.2rem;
     width: 3.2rem;
-    color: #b30000;
+    color: #ec5242;
   }
 
   .main-nav {
@@ -117,5 +123,23 @@ body {
   .main-nav span {
     display: block;
     font-size: 1.6rem;
+  }
+
+  .section-headline {
+    background-image: url(assets/img/hero-bg.png);
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+  }
+  .concert-duration {
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #666666;
+    margin-bottom: 1.2rem;
+  }
+
+  .concert-location {
+    font-weight: 400;
+    font-size: 1.4rem;
   }
 }
