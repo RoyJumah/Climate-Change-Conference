@@ -14,6 +14,7 @@
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
     ></script>
     <script defer src="src/navigation.js"></script>
+
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,21 +22,28 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <link href="dist/hamburgers.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
+    <!-- <header class="header">
       <nav class="main-nav">
-        <button class="hamburger hamburger--collapse" type="button">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-        </button>
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">How it Works</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link" href="#cta">Try for free</a></li>
+        </ul>
 
-        <ion-icon class="music-icon" name="musical-notes-outline"></ion-icon>
-      </nav>
+      </nav> -->
+      <!-- <ion-icon class="music-icon" name="musical-notes-outline"></ion-icon> -->
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close"></ion-icon>
+      </button>
     </header>
-
+<main id="main">
     <section class="section-headline container">
       <div class="headline">
         <h1 class="primary-header">"Hello! Rock & Roll World"</h1>
@@ -113,5 +121,13 @@
         <button class="btn btn--signup">Secure Your Spot Now!</button>
       </div>
     </section>
-  </body>
+  
+  <section class="artist-section">
+    <div id="attendingArtists">
+
+    </div>
+  </section>
+  </main>
+  <script defer src="src/project.js"></script>
+</body>
 </html>
