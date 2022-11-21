@@ -177,3 +177,14 @@ body {
   align-items: center;
   gap: 3.2rem;
 }
+.contact-info {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contact-info span {
+  text-decoration: underline;
+  font-weight: 700;
+}
