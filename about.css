@@ -153,6 +153,7 @@ body {
   color: #ec5242;
   font-weight: 700;
   margin-bottom: 1.2rem;
+  text-align: center;
 }
 
 .concert-info {
@@ -187,4 +188,30 @@ body {
 .contact-info span {
   text-decoration: underline;
   font-weight: 700;
+}
+
+.concert-images img {
+  width: 100%;
+  padding: 3.6rem;
+}
+
+.showcase-title {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.showcase-section {
+  margin-top: 4.8rem;
+}
+
+.showcase-info {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.section-headline {
+  border-bottom: 1px solid #d6d6d6;
 }
