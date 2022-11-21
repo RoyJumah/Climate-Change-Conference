@@ -21,39 +21,17 @@ body {
   padding: 9.6rem 2.4rem;
 }
 
-.main-nav-list {
-  list-style: none;
-  display: flex;
-  gap: 4.8rem;
-  align-items: center;
+.nav-image {
+  display: none;
 }
-
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  font-size: 1.8rem;
-  transition: all 0.3s;
-}
-
-.main-nav-link:hover,
-.main-nav-link:active {
-  color: #cf711f;
-}
-
-.main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
-  padding: 1.2rem 2.4rem;
-  border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
-}
-
-.main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  font-weight: 500;
+  font-size: 2.8rem;
+  transition: all 0.3s;
 }
 
 /* MOBILE */
@@ -69,7 +47,6 @@ body {
   height: 4.8rem;
   width: 4.8rem;
   color: #333;
-  background-color: #fff;
 }
 
 .icon-mobile-nav[name="close"] {
@@ -129,15 +106,12 @@ body {
 }
 
 .main-nav-list {
+  display: flex;
   flex-direction: column;
   gap: 3.6rem;
   justify-content: center;
   align-items: center;
-}
-
-.main-nav-link:link,
-.main-nav-link:visited {
-  font-size: 3rem;
+  list-style: none;
 }
 
 .primary-header {
@@ -169,13 +143,6 @@ body {
   height: 3.2rem;
   width: 3.2rem;
   color: #ec5242;
-}
-
-.main-nav {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 3.2rem;
 }
 
 .main-nav span {
@@ -239,7 +206,8 @@ body {
 
 .program-info {
   color: #e6e6e6;
-  align-self: center;
+
+  font-size: 1.2rem;
 }
 
 .btn,
@@ -303,10 +271,6 @@ body {
   margin-bottom: 4.8rem;
 }
 
-/* .artists:nth-child(1),
-  .artists:nth-child(2) {
-    display: inline-block;
-  } */
 .partners-heading {
   color: #fff;
   font-size: 1.8rem;
@@ -338,7 +302,6 @@ body {
 .display-block {
   display: block;
 }
-/* @media screen and(max-width:768px) { */
 
 .artistCard div:nth-child(3),
 .artistCard div:nth-child(4),
@@ -346,7 +309,6 @@ body {
 .artistCard div:nth-child(6) {
   display: none;
 }
-/* } */
 
 .load-more {
   margin-top: 2.4rem;
@@ -384,4 +346,40 @@ body {
   justify-content: center;
   gap: 2.4rem;
   padding: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .program {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .artistCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .load-more {
+    display: none;
+  }
+
+  .program-details {
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: center;
+  }
+
+  .btn-mobile-nav {
+    display: none;
+  }
+
+  .nav-image {
+    display: block;
+    width: 9.6rem;
+  }
+  .artistCard div:nth-child(3),
+  .artistCard div:nth-child(4),
+  .artistCard div:nth-child(5),
+  .artistCard div:nth-child(6) {
+    display: grid;
+  }
 }

@@ -8,8 +8,8 @@ const artists = [
   },
 
   {
-    photo: "./assets/img/saweetie.jpg",
-    artistName: "Burna Boy",
+    photo: "./assets/img/icespice.jpg",
+    artistName: "Ice Spice",
     headliner: "I can't wait to meet my lovely fans",
     artistInfo:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa",
