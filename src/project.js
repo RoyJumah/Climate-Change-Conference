@@ -70,3 +70,10 @@ artists.forEach((artist) => {
 
   artistSection.appendChild(artistCard);
 });
+const buttonContainer = document.querySelectorAll(".artists-class");
+loadMoreBtn.addEventListener("click", () => {
+  console.log("clicked");
+  buttonContainer.forEach((card) => {
+    card.style.display = "grid";
+  });
+});
