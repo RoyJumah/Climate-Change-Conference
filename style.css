@@ -382,4 +382,12 @@ body {
   .artistCard div:nth-child(6) {
     display: grid;
   }
+
+  .partners-logo {
+    column-gap: 2.4rem;
+    margin: 0 4rem;
+  }
+  .partners-logo img {
+    width: 9.6rem;
+  }
 }
