@@ -48,6 +48,7 @@ const artists = [
   },
 ];
 
+const loadMoreBtn = document.querySelector(".load-more");
 const artistSection = document.getElementById("attendingArtists");
 
 artists.forEach((artist) => {
