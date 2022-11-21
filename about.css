@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 9.6rem 2.4rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
+/* MOBILE */
+
+.btn-mobile-nav {
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+  background-color: #fff;
+}
+
+.icon-mobile-nav[name="close"] {
+  display: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 4.8rem;
+  padding: 0 2.4rem;
+  position: relative;
+}
+
+.margin-sect {
+  margin-top: 9.6rem;
+}
+
+/* Navigation */
+
+.btn-mobile-nav {
+  display: block;
+  z-index: 9999;
+}
+
+.main-nav {
+  background-color: rgba(209, 75, 60, 0.664);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  transform: translateX(100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.nav-open .main-nav {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  transform: translateX(0);
+}
+.nav-open .icon-mobile-nav[name="close"] {
+  display: block;
+}
+.nav-open .icon-mobile-nav[name="menu"] {
+  display: none;
+}
+
+.main-nav-list {
+  flex-direction: column;
+  gap: 3.6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  font-size: 3rem;
+}
+
+.primary-header {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3.8rem;
+  color: #ec5242;
+}
+
+.headline-info {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  color: #ec5242;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.concert-info {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.75;
+  border: 2px solid #fff;
+  padding: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.music-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #ec5242;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.2rem;
+}

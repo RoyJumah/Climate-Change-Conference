@@ -347,3 +347,41 @@ body {
   display: none;
 }
 /* } */
+
+.load-more {
+  margin-top: 2.4rem;
+  padding: 1.6rem 2.4rem;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.more-icon {
+  width: 1.6rem;
+  color: #ec5242;
+}
+
+.section-footer {
+  margin-top: 4.8rem;
+}
+
+.footer p {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.footer img {
+  width: 100%;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  padding: 1.2rem;
+}
