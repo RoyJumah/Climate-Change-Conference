@@ -333,7 +333,7 @@ body {
   gap: 2.4rem;
   list-style: none;
   flex-wrap: wrap;
-  margin: 0 2rem;
+
   column-gap: 1.5rem;
 }
 .display-none {
@@ -589,6 +589,13 @@ body {
   .artist-section {
     margin: 7.2rem 6.4rem;
   }
+  .partners-section {
+    padding: 6.4rem 0px 3.2rem;
+  }
+  .partners-logo {
+    column-gap: 3.2rem;
+    flex-wrap: nowrap;
+  }
 }
 
 @media (min-width: 1300px) {
@@ -600,17 +607,95 @@ body {
   }
 
   .program {
-    padding: 0 4.8rem;
+    padding: 4.8rem 9.6rem;
   }
 
   .program-details {
-    margin: 0.2rem;
+    padding: 0.4rem 0.2rem;
   }
   .artist-image {
-    width: 50%;
+    width: 100%;
   }
 
   .artist-section {
-    margin: 9.6rem;
+    margin: 4.8rem 11.2rem;
+  }
+  .partners-section {
+    padding: 8.4rem 3.2rem;
+  }
+  .partners-logo img {
+    width: 8.4rem;
+  }
+  .section-footer {
+    margin: 4.8rem 9.6rem;
+  }
+  .footer p {
+    font-size: 1.8rem;
+  }
+  .footer img {
+    width: 25%;
+  }
+  .heading-tertiary {
+    color: #fff;
+
+    font-size: 2.8rem;
+    margin: 2rem 2rem 6rem 2rem;
+    position: relative;
+  }
+  .heading-tertiary::before {
+    bottom: -45%;
+    width: 4%;
+    left: 48%;
+  }
+  .program-link:link,
+  .program-link:visited {
+    font-size: 1.8rem;
+  }
+  .heading-artists {
+    font-size: 2.8rem;
+  }
+  .partners-heading {
+    font-size: 2.8rem;
+    margin-bottom: 3.6rem;
+  }
+  .primary-header {
+    font-size: 2.8rem;
+    margin-bottom: 2.4rem;
+  }
+  .headline-info {
+    font-size: 3.8rem;
+  }
+  .concert-duration {
+    font-size: 4.2rem;
+  }
+  .concert-location {
+    font-size: 2.8rem;
+  }
+  .concert-info {
+    font-size: 2.4rem;
+    border: 4px solid rgb(255, 255, 255);
+  }
+  .main-nav-link:visited,
+  .main-nav-link:link {
+    font-size: 2.4rem;
+  }
+
+  .nav-image {
+    width: 9.6rem;
+  }
+
+  .showcase-container {
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-info {
+    font-size: 2.4rem;
+  }
+  .showcase-info {
+    font-size: 2.4rem;
+  }
+  .date,
+  .text {
+    font-size: 2.4rem;
   }
 }
