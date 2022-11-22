@@ -106,6 +106,7 @@ body {
   .program-link {
     display: none;
   }
+
   .nav-image {
     display: block;
   }
@@ -114,6 +115,7 @@ body {
 .coachella-section {
   padding: 4.8rem;
 }
+
 .coachella-header {
   font-size: 1.8rem;
   margin-bottom: 2.4rem;
@@ -135,6 +137,7 @@ body {
   border: 1px solid #d6d6d6;
   padding: 3.2rem 6.4rem;
 }
+
 .primary-header {
   font-weight: 400;
   font-size: 1.8rem;

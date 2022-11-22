@@ -25,6 +25,10 @@ body {
   display: none;
 }
 
+.fixed-position {
+  position: fixed;
+}
+
 @media (max-width: 768px) {
   .main-nav-link:link,
   .main-nav-link:visited {
@@ -252,10 +256,6 @@ body {
 
 /* Artist Section */
 
-.artist-image {
-  width: 100%;
-}
-
 .artistName {
   font-size: 1.8rem;
   font-weight: 500;
@@ -367,9 +367,11 @@ body {
   gap: 2.4rem;
   margin-bottom: 2.4rem;
 }
+
 .artist-image {
   width: 9.6rem;
 }
+
 .more-icon {
   width: 1.6rem;
   color: #ec5242;
@@ -542,6 +544,7 @@ body {
     justify-content: center;
     gap: 2.4rem;
   }
+
   .artists-class {
     gap: 3.6rem;
   }
