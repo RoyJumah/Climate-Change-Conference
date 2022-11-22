@@ -1,15 +1,15 @@
 const artists = [
   {
-    photo: "./assets/img/saweetie.jpg",
-    artistName: "Saweetie",
+    photo: "./assets/img/thestallion.webp",
+    artistName: "Meghan",
     headliner: "I can't wait to meet my lovely fans",
     artistInfo:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa",
   },
 
   {
-    photo: "./assets/img/icespice.jpg",
-    artistName: "Ice Spice",
+    photo: "./assets/img/beyonce.jpg",
+    artistName: "Beyonce",
     headliner: "I can't wait to meet my lovely fans",
     artistInfo:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa",
@@ -54,7 +54,7 @@ const artistSection = document.getElementById("attendingArtists");
 artists.forEach((artist) => {
   let artistCard = document.createElement("div");
   artistCard.classList.add("artists-class");
-  artistCard.classList.add("margin-sect");
+  // artistCard.classList.add("margin-sect");
   artistCard.innerHTML = `
  
  <div class = "artistPhoto"> 

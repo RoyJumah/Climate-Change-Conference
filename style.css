@@ -107,6 +107,14 @@ body {
     padding: 0 2.4rem;
     position: relative;
   }
+
+  .program-link {
+    display: none;
+  }
+
+  .artists-class {
+    margin-top: 2.4rem;
+  }
 }
 
 .margin-sect {
@@ -255,7 +263,8 @@ body {
   grid-template-columns: 1fr 1.5fr;
   align-items: center;
   justify-content: center;
-  gap: 2.4rem;
+  column-gap: 2.4rem;
+  margin-top: 2.4rem;
 }
 
 .artistName {
@@ -278,7 +287,7 @@ body {
 
 .heading-artists {
   font-size: 2rem;
-  font-family: 700;
+  font-weight: 700;
   text-align: center;
   margin-bottom: 4.8rem;
   position: relative;
@@ -299,7 +308,19 @@ body {
   font-size: 1.8rem;
   text-align: center;
   margin-bottom: 2.4rem;
+  position: relative;
 }
+
+.partners-heading::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -44%;
+  width: 3%;
+  left: 49%;
+  border-bottom: 1px solid #ec5242;
+}
+
 .partners-section {
   background-color: rgb(39, 42, 50, 0.85);
   padding: 4.8rem 0 3.2rem 0;
@@ -321,6 +342,7 @@ body {
 
 .partners-logo img {
   width: 5.2rem;
+  filter: grayscale(100%) contrast(30%);
 }
 .display-block {
   display: block;
@@ -387,10 +409,12 @@ body {
 
   .program-details {
     flex-direction: column;
-    gap: 0.2rem;
+
     align-items: center;
   }
-
+  .btn--signup {
+    display: none;
+  }
   .btn-mobile-nav {
     display: none;
   }
@@ -479,5 +503,84 @@ body {
   .nav-cta {
     border: 4px solid#ec5242;
     padding: 8px;
+  }
+  .program-link:link,
+  .program-link:visited {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid currentColor;
+    margin-top: 4.8rem;
+    padding: 0.2rem;
+
+    transition: all 0.3s;
+  }
+
+  .program-link:hover,
+  .program-link:active {
+    color: #bd4235;
+    border-bottom: 1px solid transparent;
+  }
+}
+
+@media (min-width: 900px) {
+  .heading-artists {
+    margin-bottom: 3.6rem;
+  }
+
+  .program-details {
+    margin: 0.6rem;
+    gap: 1.2rem;
+    padding: 0.8rem;
+  }
+
+  .program {
+    padding: 0 2.4rem;
+  }
+
+  .footer img {
+    width: 50%;
+  }
+
+  .container {
+    padding: 11.2rem 4.8rem;
+  }
+
+  .main-nav-list {
+    gap: 2.4rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .section-program {
+    padding: 4rem 0;
+  }
+
+  .program {
+    padding: 0 3.2rem;
+  }
+
+  .program-details {
+    gap: 0.8rem;
+    padding: 0.6rem;
+  }
+
+  .container {
+    padding: 12rem 4.8rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .main-nav-list {
+    gap: 4.8rem;
+  }
+  .container {
+    padding: 14rem 4.8rem;
   }
 }
