@@ -110,10 +110,6 @@ body {
   .program-link {
     display: none;
   }
-
-  .artists-class {
-    margin-top: 2.4rem;
-  }
 }
 
 .margin-sect {
@@ -260,15 +256,6 @@ body {
   width: 100%;
 }
 
-.artists-class {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-  justify-content: center;
-  column-gap: 2.4rem;
-  margin-top: 2.4rem;
-}
-
 .artistName {
   font-size: 1.8rem;
   font-weight: 500;
@@ -371,6 +358,18 @@ body {
   gap: 0.6rem;
 }
 
+.artist-section {
+  padding: 9.6rem 4.8rem;
+}
+
+.flex {
+  display: flex;
+  gap: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+.artist-image {
+  width: 9.6rem;
+}
 .more-icon {
   width: 1.6rem;
   color: #ec5242;
@@ -399,19 +398,10 @@ body {
   padding: 1.2rem;
 }
 
-.artist-section {
-  margin: 4.8rem 2.4rem;
-}
-
 @media (min-width: 768px) {
   .program {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-  }
-
-  .artistCard {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
   }
 
   .load-more {
@@ -440,7 +430,7 @@ body {
   .artistCard div:nth-child(4),
   .artistCard div:nth-child(5),
   .artistCard div:nth-child(6) {
-    display: grid;
+    display: flex;
   }
 
   .partners-logo {
@@ -541,8 +531,19 @@ body {
     border-bottom: 1px solid transparent;
   }
 
-  .artist-section {
-    margin: 4.8rem 2.4rem;
+  .artist-image {
+    width: 9.6rem;
+  }
+
+  .artistCard {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+  }
+  .artists-class {
+    gap: 3.6rem;
   }
 }
 
@@ -571,10 +572,6 @@ body {
 
   .main-nav-list {
     gap: 2.4rem;
-  }
-
-  .artist-section {
-    margin: 6.4rem 4rem;
   }
 }
 
@@ -628,15 +625,7 @@ body {
   }
 
   .program-details {
-    padding: 0.4rem 0.2rem;
-  }
-
-  .artist-image {
-    width: 100%;
-  }
-
-  .artist-section {
-    margin: 4.8rem 11.2rem;
+    padding: 4rem;
   }
 
   .partners-section {
@@ -704,7 +693,7 @@ body {
   }
 
   .concert-info {
-    font-size: 2.4rem;
+    font-size: 2rem;
     border: 4px solid rgb(255, 255, 255);
   }
 
@@ -733,5 +722,10 @@ body {
   .date,
   .text {
     font-size: 2.4rem;
+  }
+
+  .artist-section {
+    width: 1200px;
+    margin: 0 auto;
   }
 }

@@ -106,8 +106,35 @@ body {
   .program-link {
     display: none;
   }
+  .nav-image {
+    display: block;
+  }
 }
 
+.coachella-section {
+  padding: 4.8rem;
+}
+.coachella-header {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+
+.coachella-info p {
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  text-align: center;
+}
+
+.coachella-logo {
+  margin-top: 2.4rem;
+}
+
+.coachella-logo img {
+  width: 100%;
+  border: 1px solid #d6d6d6;
+  padding: 3.2rem 6.4rem;
+}
 .primary-header {
   font-weight: 400;
   font-size: 1.8rem;
@@ -161,6 +188,7 @@ body {
 
 .showcase-section {
   padding: 4.8rem;
+  border-top: 1px solid #d6d6d6;
 }
 
 .showcase-thumbnail {
@@ -362,5 +390,18 @@ body {
   .contact-info {
     text-align: center;
     padding: 0 11.2rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .coachella-section {
+    margin: 0 auto;
+    width: 1200px;
+  }
+
+  .coachella-logo img {
+    width: 25%;
+    display: block;
+    margin: auto;
   }
 }
