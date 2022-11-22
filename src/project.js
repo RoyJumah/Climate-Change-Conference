@@ -1,59 +1,59 @@
 const artists = [
   {
-    photo: "./assets/img/thestallion.webp",
-    artistName: "Meghan",
-    headliner: "I can't wait to meet my lovely fans",
+    photo: './assets/img/thestallion.webp',
+    artistName: 'Meghan',
+    headliner: 'See you there',
     artistInfo:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa",
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa',
   },
 
   {
-    photo: "./assets/img/beyonce.jpg",
-    artistName: "Beyonce",
-    headliner: "I can't wait to meet my lovely fans",
+    photo: './assets/img/beyonce.jpg',
+    artistName: 'Beyonce',
+    headliner: " Don't miss out",
     artistInfo:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa",
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa',
   },
 
   {
-    photo: "./assets/img/ye.jpg",
-    artistName: "Ye",
+    photo: './assets/img/ye.jpg',
+    artistName: 'Ye',
     headliner: "I can't wait to meet my lovely fans",
     artistInfo:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa",
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa',
   },
 
   {
-    photo: "./assets/img/drake.jpg",
-    artistName: "Drake",
+    photo: './assets/img/drake.jpg',
+    artistName: 'Drake',
     headliner: "I can't wait to meet my lovely fans",
     artistInfo:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa",
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa',
   },
 
   {
-    photo: "./assets/img/nicki.jpg",
-    artistName: "Nicki",
+    photo: './assets/img/nicki.jpg',
+    artistName: 'Nicki',
     headliner: "I can't wait to meet my lovely fans",
     artistInfo:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa",
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa',
   },
 
   {
-    photo: "./assets/img/rihanna.jpg",
-    artistName: "Rihanna",
+    photo: './assets/img/rihanna.jpg',
+    artistName: 'Rihanna',
     headliner: "I can't wait to meet my lovely fans",
     artistInfo:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa",
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molesti cupiditate voluptatibus ipsa',
   },
 ];
 
-const loadMoreBtn = document.querySelector(".load-more");
-const artistSection = document.getElementById("attendingArtists");
+const loadMoreBtn = document.querySelector('.load-more');
+const artistSection = document.getElementById('attendingArtists');
 
 artists.forEach((artist) => {
-  let artistCard = document.createElement("div");
-  artistCard.classList.add("artists-class");
+  const artistCard = document.createElement('div');
+  artistCard.classList.add('artists-class');
   // artistCard.classList.add("margin-sect");
   artistCard.innerHTML = `
  
@@ -70,10 +70,9 @@ artists.forEach((artist) => {
 
   artistSection.appendChild(artistCard);
 });
-const buttonContainer = document.querySelectorAll(".artists-class");
-loadMoreBtn.addEventListener("click", () => {
-  console.log("clicked");
+const buttonContainer = document.querySelectorAll('.artists-class');
+loadMoreBtn.addEventListener('click', () => {
   buttonContainer.forEach((card) => {
-    card.style.display = "grid";
+    card.style.display = 'grid';
   });
 });
