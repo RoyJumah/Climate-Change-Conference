@@ -134,14 +134,18 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+<!-- ACKNOWLEDGEMENTS -->
 
-- I would like to thank Microverse for providing me with the materials that made it possible to finish this exercise
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Original Design idea by [Cindy Shin](https://www.behance.net/adagio07) in Behance
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-- Creative common license for this design template 
 
-- [License link](https://creativecommons.org/licenses/by-nc/4.0/)
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
