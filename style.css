@@ -401,8 +401,8 @@ body {
 .footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 2.4rem;
+  justify-content: center;
+  gap: 4.8rem;
   padding: 1.8rem;
 }
 
