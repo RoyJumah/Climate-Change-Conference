@@ -427,6 +427,7 @@ body {
     transform: scale(1.1);
     border: 2px solid #fff;
   }
+
   .btn--signup {
     display: none;
   }
