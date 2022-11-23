@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coachella Showcase</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="src/project.js"></script>
+    <script defer src="src/navigation.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="tool-bar">
+      <a href="#"><ion-icon class="tool-bar-icon" name="logo-facebook"></ion-icon></a>
+      <a href="#"> <ion-icon class="tool-bar-icon" name="logo-twitter"></ion-icon></a>
+    <a href="#"><p>English</p></a>
+    <a href=""><p>My Page</p></a>
+    <a href="#"><p>Logout</p></a>
+  
+</div>
+    <header class="header">
+       <a class="nav-image" href="index.html"><img class ="nav-image"src="assets/img/coachella.png" alt=""></a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="index.html">Home</a></li>
+          <li><a class="main-nav-link" href="about.html">About</a></li>
+          <li><a class="main-nav-link" href="#meals">Program</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Join</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Sponsor</a></li>
+          <li><a class="main-nav-link nav-cta" href="https://www.youtube.com/watch?v=L8ZoGtAQ1mw">Coachella 2022</a></li>
+        </ul>
+      </nav>
+      <div class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close"></ion-icon>
+      </div>
+    </header>
+    <main id="main">
+      <section class="section-headline container">
+        <div class="headline">
+          <h1 class="primary-header">"Hello! Rock & Roll World"</h1>
+          <p class="headline-info">
+            Coachella <br />
+            Save the Planet Concert 2022
+          </p>
+
+          <p class="concert-info">
+            The Coachella Valley Music and Arts Festival (commonly called the
+            Coachella Festival or simply Coachella) is an annual music and arts
+            festival <br> held at the Empire Polo Club in Indio, California, in the
+            Coachella Valley in the Colorado Desert.
+          </p>
+
+          <p class="concert-duration">
+            2015.10.15 (THU) ~
+            16 (FRI)
+          </p>
+          <p class="concert-location">
+            @National Museum of Korea, Art Center Nabi and more
+          </p>
+        </div>
+      </section>
+
+      <section class="section-program">
+        <h2 class="heading-tertiary">Main program</h2>
+      <div class="program">
+         
+      <div class="program-details">
+            <img src="assets/img/space-awesome.svg" alt="A rocket launch icon" />
+            <p class="program-title">Launch</p>
+            <p class="program-info">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molestiae
+              cupiditate voluptatibus ipsa.
+            </p>
+          </div>
+
+          <div class="program-details">
+           <img src="assets/img/martini-glass-citrus-solid.svg" alt="">
+            <p class="program-title">Martini Party</p>
+            <p class="program-info">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molestiae
+              cupiditate voluptatibus ipsa.
+            </p>
+          </div>
+
+          <div class="program-details">
+            <img
+              src="assets/img/guitar-solid.svg"
+              alt="A rocket launch icon"
+            />
+            <p class="program-title">Show</p>
+            <p class="program-info">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molestiae
+              cupiditate voluptatibus ipsa.
+            </p>
+          </div>
+          <div class="program-details">
+            <img src="assets/img/volume-high-solid.svg" alt="A rocket launch icon" />
+            <p class="program-title">Main Event</p>
+            <p class="program-info">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molestiae
+              cupiditate voluptatibus ipsa.
+            </p>
+          </div>
+
+          <div class="program-details">
+            <img src="assets/img/champagne-glasses-solid.svg" alt="A rocket launch icon" />
+            <p class="program-title">After Party</p>
+            <p class="program-info">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molestiae
+              cupiditate voluptatibus ipsa.
+            </p>
+          </div>
+        </div>
+          <button class="btn btn--signup">Secure Your Spot Now!</button>
+          <a  class = "program-link "href="#">See the whole program</a>
+      </section>
+
+      <section class="artist-section">
+        <h2 class="heading-artists">Featured Artists</h2>
+        <div id="attendingArtists" class="artistCard"></div>
+        <button type="button" class="load-more">
+          More<svg xmlns="http://www.w3.org/2000/svg" class ="more-icon"fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg>
+          </ion-icon>
+        </button>
+      </section>
+
+      <section class="partners-section">
+        <div class="partners">
+          <h2 class="partners-heading">Partners</h2>
+
+          <ul class="partners-logo">
+            <li>
+              <img
+                src="assets/img/Spotify-logo.png"
+                alt="Apple logo"
+              />
+            </li>
+            <li>
+              <img
+                src="assets/img/beats.jpg"
+                alt="Apple logo"
+              />
+            </li>
+            <li>
+              <img src="assets/img/ciroc.png" alt="Apple logo" />
+            </li>
+            <br />
+            <li>
+              <img src="assets/img/uber.png" alt="Apple logo" />
+            </li>
+            <li>
+              <img src="assets/img/airbnb.jpg" alt="Apple logo" />
+              <li>
+                <img src="assets/img/bet.png" alt="Apple logo" />
+              </li>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <footer class="section-footer">
+        <div class="footer">
+         <img src="assets/img/concert.png" alt="">
+        <p class="copyright">Copyright &copy; 2022 by User, Inc. All rights reserved</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
