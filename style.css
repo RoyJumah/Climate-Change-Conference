@@ -114,6 +114,10 @@ body {
   .program-link {
     display: none;
   }
+
+  .tool-bar {
+    display: none;
+  }
 }
 
 .margin-sect {
@@ -209,7 +213,7 @@ body {
 .program-details {
   display: flex;
   flex-direction: row;
-  gap: 1.8rem;
+  gap: 2.4rem;
   align-items: center;
   justify-content: center;
   background-color: #e6e6e625;
@@ -218,8 +222,8 @@ body {
 }
 
 .program-details img {
-  height: 4.2rem;
-  width: 4.2rem;
+  height: 3.2rem;
+  width: 3.2rem;
 }
 
 .program-title {
@@ -231,6 +235,8 @@ body {
 .program-info {
   color: #e6e6e6;
   font-size: 1.2rem;
+  display: block;
+  text-align: left;
 }
 
 .btn,
@@ -389,19 +395,39 @@ body {
 }
 
 .footer img {
-  width: 100%;
+  width: 4.8rem;
 }
 
 .footer {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2.4rem;
-  padding: 1.2rem;
+  padding: 1.8rem;
 }
 
 @media (min-width: 768px) {
+  .tool-bar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2.4rem;
+    height: 4.8rem;
+    background-color: #3e3e3e;
+    align-items: center;
+    padding-right: 1.5rem;
+  }
+
+  .tool-bar-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+    color: #fff;
+  }
+
+  .tool-bar p {
+    color: #fff;
+    font-size: 1.8rem;
+  }
+
   .program {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -468,8 +494,6 @@ body {
 
   .footer img {
     width: 9.6rem;
-    display: inline-block;
-    margin-left: 4.8rem;
   }
 
   .main-nav-list {
@@ -502,19 +526,6 @@ body {
     height: 9.6rem;
     padding: 0 4.8rem;
     position: relative;
-  }
-
-  .sticky,
-  .header {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 6rem;
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #fff;
-    z-index: 999;
   }
 
   *:focus {
@@ -561,6 +572,12 @@ body {
   .artists-class {
     gap: 3.6rem;
   }
+
+  .program-info {
+    text-align: center;
+    line-height: 1.6rem;
+    font-size: 1.6rem;
+  }
 }
 
 @media (min-width: 900px) {
@@ -570,10 +587,6 @@ body {
 
   .program {
     padding: 0 2.4rem;
-  }
-
-  .footer img {
-    width: 50%;
   }
 
   .container {
@@ -643,10 +656,6 @@ body {
 
   .footer p {
     font-size: 1.8rem;
-  }
-
-  .footer img {
-    width: 25%;
   }
 
   .heading-tertiary {
