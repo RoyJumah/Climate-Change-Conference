@@ -120,6 +120,16 @@ body {
   font-size: 1.8rem;
   margin-bottom: 2.4rem;
   text-align: center;
+  position: relative;
+}
+.coachella-header::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -35%;
+  width: 5%;
+  left: 47%;
+  border-bottom: 1px solid #ec5242;
 }
 
 .coachella-info p {
@@ -406,5 +416,12 @@ body {
     width: 25%;
     display: block;
     margin: auto;
+  }
+  .coachella-header {
+    font-size: 2.4rem;
+  }
+  .coachella-info p {
+    font-size: 2.4rem;
+    line-height: 1.6;
   }
 }
