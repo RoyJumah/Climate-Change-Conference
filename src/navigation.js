@@ -1,10 +1,12 @@
-'use strict;';
+"use strict;";
+const openBtn = document.querySelector(".open-btn");
+const closeBtn = document.querySelector(".close-btn");
+const nav = document.querySelectorAll(".nav");
 
-// Making the mobile navigation work
+openBtn.addEventListener("click", () => {
+  nav.forEach((navEl) => navEl.classList.add("visible"));
+});
 
-const btnNavEl = document.querySelector('.btn-mobile-nav');
-const headerEl = document.querySelector('.header');
-
-btnNavEl.addEventListener('click', () => {
-  headerEl.classList.toggle('nav-open');
+closeBtn.addEventListener("click", () => {
+  nav.forEach((navEl) => navEl.classList.remove("visible"));
 });

@@ -22,77 +22,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .main-nav-link:link,
-  .main-nav-link:visited {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 2.8rem;
-    transition: all 0.3s;
-  }
-
-  .btn-mobile-nav {
-    border: none;
-    cursor: pointer;
-    display: block;
-    z-index: 9999;
-  }
-
-  .main-nav {
-    background-color: rgba(209, 75, 60, 0.664);
-    backdrop-filter: blur(10px);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    transform: translateX(100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.5s ease-in;
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-    z-index: 1000;
-  }
-
-  .nav-open .main-nav {
-    opacity: 1;
-    pointer-events: auto;
-    visibility: visible;
-    transform: translateX(0);
-  }
-
-  /* MOBILE */
-  .icon-mobile-nav[name="close"] {
-    display: none;
-  }
-
-  .nav-open .icon-mobile-nav[name="close"] {
-    display: block;
-  }
-
-  .nav-open .icon-mobile-nav[name="menu"] {
-    display: none;
-  }
-
-  .main-nav-list {
-    display: flex;
-    flex-direction: column;
-    gap: 3.6rem;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-  }
-
-  .icon-mobile-nav {
-    height: 4.8rem;
-    width: 4.8rem;
-    color: #333;
-  }
-
   .header {
     display: flex;
     align-items: center;
@@ -183,13 +112,6 @@ body {
   height: 3.2rem;
   width: 3.2rem;
   color: #ec5242;
-}
-
-.main-nav {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 3.2rem;
 }
 
 .contact-info {
@@ -322,38 +244,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .main-nav-list {
-    display: flex;
-    gap: 1.8rem;
-    list-style: none;
-    align-items: center;
-  }
-
-  .main-nav-link:link,
-  .main-nav-link:visited {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #344563;
-    font-weight: 500;
-    font-size: 1.5rem;
-    transition: all 0.3s;
-  }
-
-  .main-nav-link:hover,
-  .main-nav-link:active {
-    color: #ec5242;
-  }
-
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 9.6rem;
-    padding: 0 4.8rem;
-    position: relative;
-  }
-
   *:focus {
     outline: none;
     box-shadow: 0 0 0 0.8rem rgba(236, 83, 66, 0.678);
