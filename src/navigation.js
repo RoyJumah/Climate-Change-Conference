@@ -10,4 +10,5 @@ openBtn.addEventListener("click", () => {
 
 closeBtn.addEventListener("click", () => {
   nav.forEach((navEl) => navEl.classList.remove("visible"));
+  document.body.classList.remove("hidden");
 });
