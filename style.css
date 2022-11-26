@@ -25,6 +25,15 @@ body {
   display: none;
 }
 
+.hidden {
+  overflow: hidden;
+  margin: 0;
+  touch-action: none;
+  -ms-touch-action: none;
+  position: fixed;
+  height: 100%;
+}
+
 .fixed-position {
   position: fixed;
 }
@@ -127,6 +136,7 @@ body {
     list-style-type: none;
     padding-left: 20px;
   }
+
   .header {
     display: flex;
     align-items: center;
@@ -287,6 +297,17 @@ body {
   font-style: italic;
   color: #ec5242;
   margin-bottom: 1.2rem;
+  position: relative;
+}
+
+.artistHeadliner::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -39%;
+  width: 6%;
+  left: 0%;
+  border-bottom: 1px solid #666;
 }
 
 .artistInfo {
@@ -379,17 +400,24 @@ body {
 }
 
 .artist-section {
-  padding: 9.6rem 4.8rem;
+  padding: 9.6rem;
 }
 
 .flex {
   display: flex;
-  gap: 2.4rem;
+  gap: 1.2rem;
   margin-bottom: 2.4rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .artist-image {
-  width: 9.6rem;
+  width: 10rem;
+  height: 10rem;
+  background-image: url(./assets/img/checkedimage.png);
+  background-repeat: no-repeat;
+  background-size: 5rem;
+  padding: 10px;
 }
 
 .more-icon {
@@ -423,21 +451,25 @@ body {
   .nav-btn {
     display: none;
   }
+
   .nav-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.6rem 2.4rem;
   }
+
   .nav-row img {
     width: 5.2rem;
   }
+
   .list {
     display: flex;
     list-style: none;
     gap: 2.4rem;
     font-size: 2rem;
   }
+
   .list a:link,
   .list a:visited {
     text-decoration: none;
@@ -488,6 +520,7 @@ body {
     margin: 1.4rem;
     padding: 2rem;
     transition: all 0.4s;
+    border: 2px solid transparent;
   }
 
   .program-details:hover,
@@ -569,14 +602,10 @@ body {
 
   .artistCard {
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     gap: 2.4rem;
-  }
-
-  .artists-class {
-    gap: 3.6rem;
   }
 
   .program-info {
@@ -614,7 +643,7 @@ body {
   }
 
   .artist-section {
-    margin: 7.2rem 6.4rem;
+    margin: 7.2rem;
   }
 
   .partners-section {
