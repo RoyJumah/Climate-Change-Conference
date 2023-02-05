@@ -81,7 +81,7 @@ Clone this repository to your desired folder:
 
 ```sh
  $ cd my-folder
- $ git clone https://github.com/RoyJumah/Leaderboard.git
+ $ git clone https://github.com/RoyJumah/Coachella-Capstone-project.git
 ```
 
 ### Usage
@@ -118,8 +118,7 @@ To run tests, run the following command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] ****
+      
 - [ ] **Allow users to log in and log out, and display prices for the tickets.**
 - [ ] **Show each user's name, avatar, and other personal information.**
 - [ ] **Display some previews from the previous showcases.**
