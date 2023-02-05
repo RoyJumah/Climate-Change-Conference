@@ -1,70 +1,59 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
+  <h2><b>Coachella Capstone project</b></h2>
 
 </div>
+
+
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Leaderboard\] ](#-coachella-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Coachella-Concert-Showcase <a name="about-project"></a>
+# 📖 [Coachella-Capstone-Project] <a name="about-project"></a>
 
-> The Coachella-Concert Showcase is a simple project aimed to represent an annual concert in America. I has only two pages, the home page and the about page
+**[Coachella-Capstone-Project]** This is a project built with HTML, CSS and JavaScript that mocks an annual concert held in the Americas, it comprises of two pages, the homepage and the about page
 
 ## 🛠 Built With <a name="built-with"></a>
-- HTML
-- CSS
-- Javascript
+
+### Tech Stack <a name="tech-stack"></a>
+
+  <ul>
+    <li><a href="https://www.javatpoint.com/javascript-tutorial>JavaScript</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://www.freecodecamp.org/news/tag/html/">HTML</a></li>
+  </ul>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Displaying artists set to feature in the mock event**
+- **Provide past event showcases for the mock event**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -72,73 +61,95 @@ After you're finished please remove all the comments and instructions!
 
 - [Live Demo Link](https://royjumah.github.io/Coachella-Capstone-project/)
 
-<!-- VIDEO WALKTHROUGH -->
-
-## 🚀 VIDEO WALKTHROUGH <a name="live-demo"></a>
-
-- [Walkthrough link](https://www.loom.com/share/3b693563b5224b88b809880459b8195b)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
-
 In order to run this project you need:
-- Visual Studio Code or amy other equivalent code editor
-- Knowledge in HTML, CSS, Javascript and Github
-- An internet connection.
-
-<!--
-Example command:
 
 ```sh
- gem install rails
+ $ sudo apt install node
 ```
- -->
 
+### Setup
 
+Clone this repository to your desired folder:
+
+```sh
+ $ cd my-folder
+ $ git clone https://github.com/RoyJumah/Leaderboard.git
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  $ npm install
+  $ npm run start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  $ npm run test
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Preview image
+<!-- AUTHORS -->
 
-![alt text](https://raw.githubusercontent.com/RoyJumah/Coachella-Capstone-project/1ebce3151704c00782084d8c1f5a431bd3f08b76/assets/img/Screenshot%202022-11-23%20133258.png)
-
-<!-- AUTHOR -->
-
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Roy Jumah**
 
 - GitHub: [@RoyJumah](https://github.com/RoyJumah)
-- Twitter: [@_royissues](https://twitter.com/_royissues)
-- LinkedIn: [@roy_jumah](https://www.linkedin.com/in/roy-jumah/)
+- Twitter: [@\_royissues](https://twitter.com/_royissues)
+- LinkedIn: [Roy Jumah](https://www.linkedin.com/in/roy-jumah/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Allow users to search for specific users or scores.**
+- [ ] **Allow users to log in and log out, and only display leaderboard data for users who are currently logged in.**
+- [ ] **Show each user's name, avatar, and other personal information.**
+- [ ] **Display leaderboard data in pages instead of displaying all the data at once.**
+- [ ] **Create different leaderboards for different time periods (e.g., daily, weekly, monthly, or all-time).**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/RoyJumah/Leaderboard.git).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project you can give it a star
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Original Design idea by [Cindy Shin](https://www.behance.net/adagio07) in Behance
+I would like to thank microverse for the inspiration
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,6 +157,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
