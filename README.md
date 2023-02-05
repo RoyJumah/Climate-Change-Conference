@@ -119,11 +119,10 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Allow users to search for specific users or scores.**
-- [ ] **Allow users to log in and log out, and only display leaderboard data for users who are currently logged in.**
+- [ ] ****
+- [ ] **Allow users to log in and log out, and display prices for the tickets.**
 - [ ] **Show each user's name, avatar, and other personal information.**
-- [ ] **Display leaderboard data in pages instead of displaying all the data at once.**
-- [ ] **Create different leaderboards for different time periods (e.g., daily, weekly, monthly, or all-time).**
+- [ ] **Display some previews from the previous showcases.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +132,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/RoyJumah/Leaderboard.git).
+Feel free to check the [issues page](https://github.com/RoyJumah/Coachella-Capstone-project.git).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
