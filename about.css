@@ -1,328 +1,160 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-}
-
-body {
-  font-family: "Lato", sans-serif;
-  line-height: 1;
-  font-weight: 400;
-  color: #333;
-  overflow-x: hidden;
-}
-
-.container {
-  padding: 9.6rem 2.4rem;
-}
-
-@media (max-width: 768px) {
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-    height: 4.8rem;
-    padding: 0 2.4rem;
-    position: relative;
-  }
-
-  .program-link {
-    display: none;
-  }
-
-  .nav-image {
-    display: block;
-  }
-
-  .section-footer--about {
-    background-color: #3e3e3e;
-  }
-}
-
-.coachella-section {
-  padding: 4.8rem;
-}
-
-.coachella-header {
-  font-size: 1.8rem;
-  margin-bottom: 2.4rem;
-  text-align: center;
-  position: relative;
-}
-
-.coachella-header::before {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: -35%;
-  width: 5%;
-  left: 47%;
-  border-bottom: 1px solid #ec5242;
-}
-
-.coachella-info p {
-  font-size: 1.4rem;
-  line-height: 1.2rem;
-  text-align: center;
-}
-
-.coachella-logo {
-  margin-top: 2.4rem;
-}
-
-.coachella-logo img {
-  width: 100%;
-  border: 1px solid #d6d6d6;
-  padding: 3.2rem 6.4rem;
-}
-
-.primary-header {
-  font-weight: 400;
-  font-size: 1.8rem;
-  line-height: 3.8rem;
-  color: #ec5242;
-}
-
-.headline-info {
-  text-transform: uppercase;
-  font-size: 2.8rem;
-  color: #ec5242;
-  font-weight: 700;
-  margin-bottom: 1.2rem;
-  text-align: center;
-}
-
-.concert-info {
-  font-size: 1.2rem;
-  font-weight: 400;
-  line-height: 1.6;
-  letter-spacing: 0.75px;
-  border: 2px solid #fff;
-  padding: 1.2rem;
-  margin-bottom: 2.4rem;
-}
-
-.music-icon {
-  height: 3.2rem;
-  width: 3.2rem;
-  color: #ec5242;
-}
-
-.contact-info {
-  font-size: 1.4rem;
-  line-height: 1.4;
-  font-weight: 400;
-  text-align: center;
-}
-
-.contact-info span {
-  text-decoration: underline;
-  font-weight: 700;
-}
-
-.showcase-section {
-  padding: 4.8rem;
-  border-top: 1px solid #d6d6d6;
-}
-
-.showcase-thumbnail {
-  position: relative;
-  height: 30vh;
-  margin: 0 2rem 2rem 2rem;
-  cursor: pointer;
-}
-
-.showcase-thumbnail img {
-  width: 100%;
-  height: 100%;
-}
-
-.showcase-title {
-  font-size: 2.4rem;
-  font-weight: 400;
-  margin-bottom: 1.8rem;
-  text-align: center;
-  position: relative;
-}
-
-.showcase-title::before {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: -35%;
-  width: 5%;
-  left: 47%;
-  border-bottom: 1px solid #ec5242;
-}
-
-.showcase-info {
-  font-size: 1.4rem;
-  line-height: 1.2;
-  text-align: center;
-  margin-bottom: 1.2rem;
-}
-
-.showcase-thumbnail .description {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  color: #fff;
-  background-color: rgba(224, 104, 104, 0.6);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  font-family: "COCOGOOSE", sans-serif;
-  transition: all ease-in-out 150ms;
-}
-
-.showcase-thumbnail .description:hover {
-  background-color: rgba(224, 104, 104, 0.2);
-}
-
-.section-headline {
-  border-bottom: 1px solid #d6d6d6;
-}
-
-.partners-heading {
-  color: #fff;
-  font-size: 1.8rem;
-  text-align: center;
-  margin-bottom: 2.4rem;
-}
-
-.partners-section {
-  background-color: rgb(39, 42, 50, 0.85);
-  padding: 4.8rem 0 3.2rem 0;
-}
-
-.partners-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2.4rem;
-  list-style: none;
-  flex-wrap: wrap;
-  margin: 0 2rem;
-  column-gap: 1.5rem;
-}
-
-.partners-logo img {
-  width: 5.2rem;
-}
-
-.section-footer--about {
-  margin-top: 4.8rem;
-  padding: 1.8rem;
-}
-
-.footer--about p {
-  font-size: 1.4rem;
-  line-height: 1.2;
-  font-weight: 400;
-  color: #fff;
-}
-
-.footer--about img {
-  width: 4.8rem;
-}
-
-.footer--about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  column-gap: 4.8rem;
-}
+/* @media (max-width: 768px) {
+} */
 
 @media (min-width: 768px) {
-  *:focus {
-    outline: none;
-    box-shadow: 0 0 0 0.8rem rgba(236, 83, 66, 0.678);
+  #headline {
+    width: 100%;
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-image: url(assets/img/background-headline-mobile-2.png);
   }
 
-  .nav-cta {
-    border: 4px solid#ec5242;
-    padding: 8px;
+  .headline-titles.about {
+    padding-top: 180px;
+    margin-left: 0;
+    margin-top: 0;
   }
 
-  .showcase-container {
+  .headline-titles.about h2,
+  span {
+    color: var(--color-primary);
+  }
+
+  .headline-subtitle.about {
+    border: 1px solid #d3d3d3;
+    background-color: white;
+    text-align: center;
+  }
+
+  .content-background .headline-titles.about h2 {
+    text-align: center;
+  }
+
+  .about-description {
+    font-weight: 300;
+    color: #575757;
+    margin-top: 16px;
+    text-align: center;
+    padding: 8px 16px 8px 16px;
+  }
+
+  .about-email {
+    color: #575757;
+    font-weight: 500;
+    margin-top: 8px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  /* Logo History : About.html  */
+
+  #Logo-history {
+    width: 100%;
+    min-height: 200px;
+    border-bottom: 1px solid var(--color-tertiar);
+  }
+
+  .summit img {
+    width: 120%;
+    height: 100%;
+  }
+
+  /* Past History / List Of Summits : About.html  */
+
+  #Past-history {
+    width: 100%;
+    min-height: 250px;
+  }
+
+  .list-summits {
+    list-style: none;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 130px;
+  }
+
+  .summit {
+    width: 80%;
+    width: 310px;
+    height: 290px;
+    overflow: hidden;
+    margin-top: 15px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .summit .summit-description {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+    color: white;
+    background-color: rgba(236, 82, 66, 0.7);
+  }
+
+  .summit .summit-description h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+
+  .summit .summit-description p {
+    font-size: 0.813rem;
+    font-weight: 400;
+    padding: 16px;
+    text-align: center;
+  }
+
+  /* Footer */
+
+  .footer-container-1 {
     display: flex;
+    flex: 1 1;
+    align-items: center;
+    gap: 2.4rem;
+    margin: 0 10px;
   }
 
-  .showcase {
-    margin-bottom: 2.4rem;
-  }
-
-  .footer--about p {
-    font-size: 2rem;
-  }
-
-  .footer--about img {
-    width: 9.6rem;
-  }
-
-  .section-footer--about {
-    background-color: #3e3e3e;
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media (min-width: 900px) {
-  .concert-info,
-  .contact-info {
-    text-align: center;
-    padding: 0 9.6rem;
-  }
-
-  .showcase-section {
-    padding: 3.6rem;
-  }
-}
-
-@media (min-width: 1100px) {
-  .showcase-container {
-    padding: 0 3.2rem;
-  }
-
-  .concert-info,
-  .contact-info {
-    text-align: center;
-    padding: 0 11.2rem;
-  }
-}
-
-@media (min-width: 1300px) {
-  .coachella-section {
-    margin: 0 auto;
-    width: 1200px;
-  }
-
-  .coachella-logo img {
+  .footer-container img {
     width: 25%;
+    max-height: 100%;
+    cursor: pointer;
+  }
+
+  #Logo-history img {
+    width: 25%;
+    padding: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+  }
+
+  footer.about {
+    color: white;
+    background-color: #272a31;
+  }
+
+  .footer-container:first-child {
+    width: 40%;
+  }
+
+  .footer-container:last-child {
+    width: 60%;
     display: block;
-    margin: auto;
   }
 
-  .coachella-header {
-    font-size: 2.4rem;
+  .footer-container p:last-child {
+    display: block;
+    margin-top: 5px;
+    font-size: 1rem;
   }
 
-  .coachella-info p {
-    font-size: 2.4rem;
-    line-height: 1.6;
-  }
-
-  .section-footer--about {
-    width: 100%;
+  .footer-container:last-child p:first-child {
+    font-size: 1.5rem;
+    font-weight: 700;
   }
 }

@@ -17,6 +17,8 @@
     <script defer src="src/navigation.js"></script>
 
     <link rel="stylesheet" href="style.css" />
+    <link rel ='stylesheet' href="media.css" />
+    <link rel ='stylesheet' href="about.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,16 +30,16 @@
     crossorigin="anonymous" />
   </head>
   <body>
-    <div class="tool-bar">
+    <nav class="tool-bar">
       <a href="#"><ion-icon class="tool-bar-icon" name="logo-facebook"></ion-icon></a>
       <a href="#"> <ion-icon class="tool-bar-icon" name="logo-twitter"></ion-icon></a>
     <a href="#"><p>English</p></a>
     <a href=""><p>My Page</p></a>
     <a href="#"><p>Logout</p></a>
   
-</div>
+</nav>
 <header class="header">
-  <button class="nav-btn open-btn">
+  <button type="button" class="nav-btn open-btn">
     <i class="fas fa-bars"></i>
   </button>
 
@@ -46,7 +48,7 @@
   <div class="nav nav-black">
     <div class="nav nav-red">
       <div class="nav nav-white">
-        <button class="nav-btn close-btn">
+        <button type="button" class="nav-btn close-btn">
           <i class="fas fa-times"></i>
         </button>
 <div class="nav-row">
@@ -60,12 +62,12 @@
 <div>
   
   <ul class="list">
-    <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="#">Program</a></li>
         <li><a href="#">Join</a></li>
         <li><a href="#">Sponsor</a></li>
-        <li><a class="nav-cta" href="https://www.youtube.com/watch?v=L8ZoGtAQ1mw">Coachella 2022</a></li>
+        <li><a href="ticket.html">Buy ticket</a></li>
+        <li><a class="nav-cta" href="#">CC 2022</a></li>
        
   </ul>
 </div>
@@ -75,19 +77,22 @@
   </div>
 </header>
     <main id="main">
-      <section class="section-headline container">
-        <div class="headline">
-          <h1 class="primary-header">"Hello! Rock & Roll World"</h1>
-          <p class="headline-info">
-            Coachella <br />
-            Save the Planet Concert 2022
-          </p>
-
+      <section class="headline">
+        <div class="flex-column-center content-background">
+          <div class="headline-titles">
+          <span>"It's not too late"</span>
+          <h2 class="headline-info">
+           Fight Climate Change <br>
+           for a Better Future
+          </h2>
+        </div>
+        </div>
+          <div class="flex-column-center content-description">
           <p class="concert-info">
-            The Coachella Valley Music and Arts Festival (commonly called the
-            Coachella Festival or simply Coachella) is an annual music and arts
-            festival <br> held at the Empire Polo Club in Indio, California, in the
-            Coachella Valley in the Colorado Desert.
+            The climate change conference unites experts and individuals to share
+            insights on the latest research and potential solutions.<br />
+            Attendees are empowered to take action and make a positive impact
+            through engaging programs and networking opportunities.
           </p>
 
           <p class="concert-duration">
@@ -100,82 +105,66 @@
         </div>
       </section>
 
-      <section class="section-program">
-        <h2 class="heading-tertiary">Main program</h2>
-      <div class="program">
+      <section id="main-program" class="flex-column-center">
+        <h2 class="section-title">Main program</h2>
+      <hr class="section-subtitle
+">
          
-      <div class="program-details">
-            <img src="assets/img/space-awesome.svg" alt="A rocket launch icon" />
-          <div class="details-text">
+      <ul class="flex-center list-activities">
+        <li class="activity">
+          <img class ='program-icon'src="assets/img/speeches.png" alt="Speech icon" />
+          <p class="program-title">Listen</p>
+          <p class="program-descriptions">
+            Listen to speakers and authors from various countries share their experiences with deep work
+          </p>
+        </li>
+        
+      <li class="activity">
+        <img class="program-icon" src="assets/img/learning.png" alt="learning icon">
+        <p class="program-title">Learn</p>
+        <p class="program-descriptions">
+          Learn how to be more productive from the top 10% of talented workers in their respective areas
+        </p>
 
-            <p class="program-title">Launch</p>
-            <p class="program-info">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molestiae
-              cupiditate voluptatibus ipsa.
-            </p>
-          </div>  
-          </div>
+      </li>
+      <li class="activity">
+        <img class="program-icon"
+          src="assets/img/discussion-icon.jpg"
+          alt="Discussion icon"
+        />
+        <p class="program-title">Discuss</p>
+        <p class="program-descriptions">
+          Have the opportunity to share your thoughts and opinions with experts for each topic.
+        </p>
+      </li>
 
-          <div class="program-details">
-           <img src="assets/img/martini-glass-citrus-solid.svg" alt="">
-           <div class="details-text">
+      <li class="activity">
+        <img class="program-icon" src="assets/img/gifts.png" alt="gifts icon" />
+        <p class="program-title">Gifts</p>
+        <p class="program-descriptions">
+          Attendees can expect to receive best-selling books on productivity and focus as gifts from the conference organizers.
+        </p>
+      
+      </li>
 
-            <p class="program-title">Lorem</p>
-            <p class="program-info">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molestiae
-              cupiditate voluptatibus ipsa.
-            </p>
-          </div> 
-          </div>
-
-          <div class="program-details">
-            <img
-              src="assets/img/guitar-solid.svg"
-              alt="A rocket launch icon"
-            />
-            <div class="details-text">
-
-              <p class="program-title">Lorem</p>
-              <p class="program-info">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molestiae
-                cupiditate voluptatibus ipsa.
-              </p>
-            </div> 
-          </div>
-          <div class="program-details">
-            <img src="assets/img/volume-high-solid.svg" alt="A rocket launch icon" />
-            <div class="details-text">
-
-              <p class="program-title">Lorem</p>
-              <p class="program-info">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molestiae
-                cupiditate voluptatibus ipsa.
-              </p>
-            </div> 
-          </div>
-
-          <div class="program-details">
-            <img src="assets/img/champagne-glasses-solid.svg" alt="A rocket launch icon" />
-            <div class="details-text">
-
-              <p class="program-title">Lorem</p>
-              <p class="program-info">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.Molestiae
-                cupiditate voluptatibus ipsa.
-              </p>
-            </div> 
-          </div>
-        </div>
-          <button class="btn btn--signup">Secure Your Spot Now!</button>
-          <a  class = "program-link "href="#">See the whole program</a>
+      <li  class="activity">
+        <img class="program-icon" src="assets/img/networking.jpg" alt="networking icon" />
+          <p class="program-title">Network</p>
+          <p class="program-descriptions">
+            Network with climate change affiliates from around the world, even after the summit ends.
+          </p>
+      </li>
+</ul>
+          <a href="ticket.html" class="btn btn--signup">Secure Your Spot Now</a>
       </section>
 
-      <section class="artist-section">
-        <h2 class="heading-artists">Featured Artists</h2>
-        <div id="attendingArtists" class="artistCard"></div>
+      <section id ="featured-artists "class="flex-column-center">
+        <h2 class="section-title">Featured Speakers</h2>
+        <hr class="section-subtitle">
+        <ul id="attendingArtists" class="artistCard flex-column-center"></ul>
         <button type="button" class="load-more"> Show More
         </button>
-          <button id="showLessBtn" class="show-less">Show Less</button>
+          <button id="showLessBtn" type="button" class="show-less">Show Less</button>
 
           
       </section>
@@ -187,37 +176,40 @@
           <ul class="partners-logo">
             <li>
               <img
-                src="assets/img/Spotify-logo.png"
+                src="assets/img/unicef.png"
                 alt="Apple logo"
               />
             </li>
             <li>
               <img
-                src="assets/img/beats.jpg"
+                src="assets/img/microsoft.png"
                 alt="Apple logo"
               />
             </li>
             <li>
-              <img src="assets/img/ciroc.png" alt="Apple logo" />
+              <img src="assets/img/ikea.png" alt="IKEA logo" />
             </li>
             <br />
             <li>
-              <img src="assets/img/uber.png" alt="Apple logo" />
+              <img src="assets/img/Google.png" alt="Google logo" />
             </li>
             <li>
-              <img src="assets/img/airbnb.jpg" alt="Apple logo" />
+              <img src="assets/img/coca_cola.jpg" alt="Cocacola logo" />
               <li>
-                <img src="assets/img/bet.png" alt="Apple logo" />
+                <img src="assets/img/amazon_logo.png" alt="Amazon logo" />
               </li>
             </li>
           </ul>
         </div>
       </section>
-
-      <footer class="section-footer">
-        <div class="footer">
-         <img src="assets/img/concert.png" alt="">
-        <p class="copyright">Copyright &copy; 2022 by User, Inc. All rights reserved</p>
+      <footer class="footer about">
+        <div class="footer-container-1">
+          <img src="assets/img/concert.png" alt="Climate Change Conference 2022">
+          <h2>Climate Change Conference 2022</h2>
+        </div>
+        <div class="footer-container">
+          <p>Sauf indication contraire, tout le contenu du site Web est sous licence Leaders Entrepreneurship Conference.</p>
+          <p>Veuillez consulter les fonctionnalités d'utilisation détaillées et les conditions d'autorisation.</p>
         </div>
       </footer>
     </main>

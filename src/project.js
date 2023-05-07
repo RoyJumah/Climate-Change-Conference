@@ -1,63 +1,64 @@
 const artists = [
   {
-    photo: './assets/img/thestallion.webp',
-    artistName: 'Meghan',
-    headliner: 'Best Female Rapper of the Year',
+    photo: "./assets/img/greta.jpg",
+    artistName: "Greta Thunberg",
+    headliner: "Climate Activist & Nobel Peace Prize Winner",
     artistInfo:
-      'Meghan is a female artist with numerous awards to her name both inside and outside the music industry',
+      "Greta Thunberg is a Swedish climate activist who has been nominated for the Nobel Peace Prize. She is also the founder of Fridays for Future, a global climate strike movement",
   },
 
   {
-    photo: './assets/img/beyonce.jpg',
-    artistName: 'Beyonce',
-    headliner: ' Musician & Multiple Grammy Winner',
+    photo: "./assets/img/algore.jpg",
+    artistName: "Al Gore",
+    headliner:
+      "Former Vice President of the United States and climate change advocate",
     artistInfo:
-      'Ever heard of Beyonce, me too. Beyonce is ranked among best musicians of all time and most influential people on Planet Earth',
+      "Al Gore is a former Vice President of the United States and a climate change advocate. He is also the founder of the Climate Reality Project",
   },
 
   {
-    photo: './assets/img/ye.jpg',
-    artistName: 'Ye',
-    headliner: 'Musician & Multiple Emmy Winner',
+    photo: "./assets/img/alexandria.jpg",
+    artistName: "Alexandria Villaseñor",
+    headliner: "Climate Activist & Youth Activist",
     artistInfo:
-      ' The founder of Yeezy is no stranger to the limelight. He promises a big announcement regarding his upcoming album',
+      "Alexandria Villaseñor is a climate activist and a youth activist. She is also the youngest person to ever speak at the United Nations",
   },
 
   {
-    photo: './assets/img/drake.jpg',
-    artistName: 'Drake',
-    headliner: 'Musician & Multiple Grammy Winner',
+    photo: "./assets/img/nakate.jpg",
+    artistName: "Vanessa Nakate",
+    headliner: "Climate Activist & Youth Activist",
     artistInfo:
-      "The God's Plan hitmaker doesn't need much introduction. Drake is among the best musicians of all time and his awards and best selling albums don't lie either",
+      "Vanessa Nakate is a climate activist and a youth activist. She is also the founder of the Climate Justice Youth Movement",
   },
 
   {
-    photo: './assets/img/nicki.jpg',
-    artistName: 'Nicki',
-    headliner: 'Best Female Rapper of the Decade',
+    photo: "./assets/img/bastida.jpg",
+    artistName: "Xiye Bastida",
+    headliner: "Climate Activist & Youth Activist",
     artistInfo:
-      ' <em>Starships were meant to fly....</em> What is there more to say about the Queen of Pop. She is here and she is perfect, enjoy her while you still can.',
+      "Xiye Bastida is a climate activist and a youth activist. She is also the founder of the Climate Justice Youth Movement",
   },
 
   {
-    photo: './assets/img/rihanna.jpg',
-    artistName: 'Rihanna',
-    headliner: 'Musician, Billionaire & Best Female Artist of the Decade',
+    photo: "./assets/img/shiva.jpg",
+    artistName: "Vandana Shiva",
+    headliner: "Climate Activist & Environmental Activist",
     artistInfo:
-      'Born in the beautiful country of Barbados, Rihanna has went on to dominate the music scene for decades with hit after hit. She is also the founder of Fenty, a company that focuses of women cosmetics',
+      "Vandana Shiva is an environmental activist and a climate activist. She is also the founder of the Navdanya Movement",
   },
 ];
 
-const loadMoreBtn = document.querySelector('.load-more');
-const artistSection = document.getElementById('attendingArtists');
-const showLessBtn = document.querySelector('#showLessBtn');
+const loadMoreBtn = document.querySelector(".load-more");
+const artistSection = document.getElementById("attendingArtists");
+const showLessBtn = document.querySelector("#showLessBtn");
 artists.forEach((artist) => {
-  const artistCard = document.createElement('div');
-  artistCard.classList.add('artists-class');
-  artistCard.classList.add('flex');
+  const artistCard = document.createElement("li");
+
+  artistCard.classList.add("artist");
   artistCard.innerHTML = `
  
- <div class = "artistPhoto"> 
+ <div class = "artistPhoto-container"> 
  <img class= "artist-image "src="${artist.photo}" alt = "An image of the artist" />
  </div>
 
@@ -70,36 +71,36 @@ artists.forEach((artist) => {
 
   artistSection.appendChild(artistCard);
 });
-const buttonContainer = document.querySelectorAll('.artists-class');
+const buttonContainer = document.querySelectorAll(".artist");
 
-loadMoreBtn.addEventListener('click', () => {
+loadMoreBtn.addEventListener("click", () => {
   buttonContainer.forEach((card) => {
-    card.style.display = 'flex';
+    card.style.display = "flex";
   });
-  showLessBtn.style.display = 'inline-block';
-  loadMoreBtn.style.display = 'none';
+  showLessBtn.style.display = "inline-block";
+  loadMoreBtn.style.display = "none";
 });
 
-showLessBtn.style.display = 'none';
-showLessBtn.addEventListener('click', () => {
+showLessBtn.style.display = "none";
+showLessBtn.addEventListener("click", () => {
   for (let i = 2; i < buttonContainer.length; i += 1) {
-    buttonContainer[i].style.display = 'none';
+    buttonContainer[i].style.display = "none";
   }
-  loadMoreBtn.style.display = 'inline-block';
-  showLessBtn.style.display = 'none';
+  loadMoreBtn.style.display = "inline-block";
+  showLessBtn.style.display = "none";
 });
 
-window.addEventListener('resize', () => {
+window.addEventListener("resize", () => {
   if (window.innerWidth > 768) {
     buttonContainer.forEach((card) => {
-      card.style.display = 'flex';
+      card.style.display = "flex";
     });
   } else {
     buttonContainer.forEach((card, index) => {
       if (index < 2) {
-        card.style.display = 'flex';
+        card.style.display = "flex";
       } else {
-        card.style.display = 'none';
+        card.style.display = "none";
       }
     });
   }

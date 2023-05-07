@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/a1c06e2fcd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <script src="calendar.js" defer></script>
+    <script src="nav.js" defer></script>
+    <title>My Ticket Schedule</title>
+  </head>
+  <body>
+    <!-- Header Section: same code in the about.html -->
+    <nav class="tool-bar">
+      <a href="#"><ion-icon class="tool-bar-icon" name="logo-facebook"></ion-icon></a>
+      <a href="#"> <ion-icon class="tool-bar-icon" name="logo-twitter"></ion-icon></a>
+    <a href="#"><p>English</p></a>
+    <a href=""><p>My Page</p></a>
+    <a href="#"><p>Logout</p></a>
+  
+</nav>
+<header class="header">
+  <button type="button" class="nav-btn open-btn">
+    <i class="fas fa-bars"></i>
+  </button>
+
+
+
+  <div class="nav nav-black">
+    <div class="nav nav-red">
+      <div class="nav nav-white">
+        <button type="button" class="nav-btn close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+<div class="nav-row">
+<div>
+<a href="index.html"><img
+  src="assets/img/concert.png"
+  alt="Logo"
+  class="logo"
+/></a>
+</div>
+<div>
+  
+  <ul class="list">
+    <li><a href="about.html">About</a></li>
+    <li><a href="#">Program</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Sponsor</a></li>
+        <li><a href="ticket.html">Buy ticket</a></li>
+        <li><a class="nav-cta" href="#">CC 2022</a></li>
+       
+  </ul>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Day Section -->
+    <section id="schedule" class="flex-column-center schedule">
+      <h2 class="section-title">Schedule</h2>
+      <hr class="section-subtitle" />
+
+      <ul class="flex-center list-days">
+        <li class="day">Wednesday (7 Oct.)</li>
+        <li class="day selected">Saturday (12 Oct.)</li>
+        <li class="day">Monday (14 Oct.)</li>
+        <li class="day">Tuesday (12 Nov.)</li>
+      </ul>
+      <hr class="separator" />
+    </section>
+
+    <section class="ticket-detail">
+      <h3 id="ticket-date">13th Oct.(Wed)</h3>
+      <h2 class="section-title">Ticket Details</h2>
+      <p class="ticket-description">
+        You select a ticket for <strong>Students</strong>, Scheduled
+        <strong>Saturday (12st Oct.)</strong> <br />
+        Lunch menu selected is <strong>Menu 1</strong> <br /><br />
+        (You can change the scheduled date <a href="#schedule">above</a>)
+      </p>
+      <hr class="separator" />
+    </section>
+
+    <section class="flex-column-center program-calendar">
+      <div class="legend-wrapper">
+        <ul class="legend">
+          <li><i class="fa-sharp fa-solid fa-book"></i>Lecture</li>
+          <li><i class="fa-solid fa-briefcase"></i>Practice</li>
+          <li><i class="fa-solid fa-comments"></i>Discussion</li>
+          <li><i class="fa-solid fa-mug-hot"></i>Open-Access</li>
+          <li><i class="fa-solid fa-gift"></i>Gift</li>
+          <li><i class="fa-solid fa-champagne-glasses"></i>Event</li>
+        </ul>
+      </div>
+
+      <!-- Should Be generated Dynamicaly-->
+      <ul class="calendar"></ul>
+
+      <a href="#" id="btn-schedule">Join LEC 2022</a>
+    </section>
+
+    <!--Footer Section : Black version-->
+    <footer class="footer about">
+      <div class="footer-container-1">
+        <img src="assets/img/concert.png" alt="Climate Change Conference 2022">
+        <h2>Climate Change Conference 2022</h2>
+      </div>
+      <div class="footer-container">
+        <p>Sauf indication contraire, tout le contenu du site Web est sous licence Leaders Entrepreneurship Conference.</p>
+        <p>Veuillez consulter les fonctionnalités d'utilisation détaillées et les conditions d'autorisation.</p>
+      </div>
+    </footer>
+  </body>
+</html>
