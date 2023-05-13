@@ -1,160 +1,145 @@
-/* @media (max-width: 768px) {
-} */
+#headline.about {
+  background-image: url(assets/img/backgroud-mobile-headline.png);
+}
 
-@media (min-width: 768px) {
-  #headline {
-    width: 100%;
-    min-height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-    background-image: url(assets/img/background-headline-mobile-2.png);
-  }
+#headline {
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-image: url(assets/img/background-headline-mobile-2.png);
+}
 
-  .headline-titles.about {
-    padding-top: 180px;
-    margin-left: 0;
-    margin-top: 0;
-  }
+.headline-titles.about {
+  padding-top: 180px;
+  margin-left: 0;
+  margin-top: 0;
+}
 
-  .headline-titles.about h2,
-  span {
-    color: var(--color-primary);
-  }
+.headline-subtitle.about {
+  border: 1px solid #d3d3d3;
+  background-color: white;
+  text-align: center;
+}
 
-  .headline-subtitle.about {
-    border: 1px solid #d3d3d3;
-    background-color: white;
-    text-align: center;
-  }
+.headline-subtitle {
+  font-weight: 500;
+  background-color: rgba(211, 211, 211, 0.2);
+  border: 5px solid white;
+  padding: 14px 16px 14px 16px;
+}
 
-  .content-background .headline-titles.about h2 {
-    text-align: center;
-  }
+.content-background .headline-titles.about h2 {
+  text-align: center;
+}
 
-  .about-description {
-    font-weight: 300;
-    color: #575757;
-    margin-top: 16px;
-    text-align: center;
-    padding: 8px 16px 8px 16px;
-  }
+.about-description {
+  font-weight: 300;
+  color: #575757;
+  margin-top: 16px;
+  text-align: center;
+  padding: 8px 16px 8px 16px;
+}
 
-  .about-email {
-    color: #575757;
-    font-weight: 500;
-    margin-top: 8px;
-    text-decoration: underline;
-    cursor: pointer;
-  }
+.about-email {
+  color: #575757;
+  font-weight: 500;
+  margin-top: 8px;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
-  /* Logo History : About.html  */
+/* Logo History : About.html  */
 
-  #Logo-history {
-    width: 100%;
-    min-height: 200px;
-    border-bottom: 1px solid var(--color-tertiar);
-  }
+#Logo-history {
+  width: 100%;
+  min-height: 200px;
+  border-bottom: 1px solid var(--color-tertiar);
+}
 
-  .summit img {
-    width: 120%;
-    height: 100%;
-  }
+.summit img {
+  width: 120%;
+  height: 100%;
+}
 
-  /* Past History / List Of Summits : About.html  */
+/* Past History / List Of Summits : About.html  */
 
-  #Past-history {
-    width: 100%;
-    min-height: 250px;
-  }
+#Past-history {
+  width: 100%;
+  min-height: 250px;
+}
 
-  .list-summits {
-    list-style: none;
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 130px;
-  }
+.list-summits {
+  list-style: none;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 130px;
+}
 
-  .summit {
-    width: 80%;
-    width: 310px;
-    height: 290px;
-    overflow: hidden;
-    margin-top: 15px;
-    position: relative;
-    cursor: pointer;
-  }
+.summit {
+  width: 80%;
+  width: 310px;
+  height: 290px;
+  overflow: hidden;
+  margin-top: 15px;
+  position: relative;
+  cursor: pointer;
+}
 
-  .summit .summit-description {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-    z-index: 1;
-    color: white;
-    background-color: rgba(236, 82, 66, 0.7);
-  }
+.summit .summit-description {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+  color: white;
+  background-color: rgba(236, 82, 66, 0.7);
+}
 
-  .summit .summit-description h3 {
-    font-size: 1.75rem;
-    font-weight: 700;
-  }
+.summit .summit-description h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
 
-  .summit .summit-description p {
-    font-size: 0.813rem;
-    font-weight: 400;
-    padding: 16px;
-    text-align: center;
-  }
+.summit .summit-description p {
+  font-size: 0.813rem;
+  font-weight: 400;
+  padding: 16px;
+  text-align: center;
+}
 
-  /* Footer */
+/* Footer */
 
-  .footer-container-1 {
-    display: flex;
-    flex: 1 1;
-    align-items: center;
-    gap: 2.4rem;
-    margin: 0 10px;
-  }
+.footer-container-1 {
+  display: flex;
+  flex: 1 1;
+  align-items: center;
+  gap: 2.4rem;
+  margin: 0 10px;
+}
 
-  .footer-container img {
-    width: 25%;
-    max-height: 100%;
-    cursor: pointer;
-  }
+.footer-container img {
+  width: 25%;
+  max-height: 100%;
+  cursor: pointer;
+}
 
-  #Logo-history img {
-    width: 25%;
-    padding: 16px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border: 1px solid #d3d3d3;
-    cursor: pointer;
-  }
+#Logo-history img {
+  width: 25%;
+  padding: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #d3d3d3;
+  cursor: pointer;
+}
 
-  footer.about {
-    color: white;
-    background-color: #272a31;
-  }
+footer.about {
+  color: white;
+  background-color: #272a31;
+}
 
-  .footer-container:first-child {
-    width: 40%;
-  }
-
-  .footer-container:last-child {
-    width: 60%;
-    display: block;
-  }
-
-  .footer-container p:last-child {
-    display: block;
-    margin-top: 5px;
-    font-size: 1rem;
-  }
-
-  .footer-container:last-child p:first-child {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
+.footer-container {
+  width: 50%;
 }

@@ -1,4 +1,12 @@
 @media screen and (max-width: 768px) {
+  .logo-class h3 {
+    display: none;
+  }
+
+  .headline {
+    min-height: 700px;
+  }
+
   .text {
     text-transform: uppercase;
   }
@@ -11,7 +19,7 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 30px;
     display: block;
   }
 
@@ -119,11 +127,46 @@
   .artist:nth-child(6) {
     display: none;
   }
+
+  .footer,
+  .footer-container-1 {
+    gap: 0.8rem;
+  }
+
+  .footer p,
+  h2 {
+    font-size: 0.8rem;
+  }
+
+  #Logo-history img {
+    width: 35%;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .logo-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+
+  .concert-duration {
+    font-size: 2.5rem;
+  }
+
+  .attendingArtists {
+    margin-bottom: 80px;
+  }
+
   #headline.about {
     background-image: url("assets/img/backgrond-destok-headline.png");
+  }
+
+  .headline-subtitle {
+    font-size: 1.25rem;
+    max-width: 700px;
+    padding: 24px 36px 24px 36px;
   }
 
   .content-description.about {
@@ -160,12 +203,6 @@
     flex-direction: row;
     width: auto;
     border-radius: 30px;
-  }
-
-  .headline-subtitle {
-    font-size: 1.25rem;
-    max-width: 700px;
-    padding: 24px 36px 24px 36px;
   }
 
   .legend {
@@ -296,12 +333,8 @@
     align-items: flex-start;
   }
 
-  .headline {
-    background-image: url(assets/img/backgrond-destok-headline.png);
-  }
-
   .headline-titles {
-    margin-left: 10vw;
+    margin-left: 12.2vw;
   }
 
   .headline-titles span {
@@ -347,17 +380,20 @@
     align-items: center;
     padding: 0.6rem 1.2rem;
     box-shadow: 6px 6px 3px rgba(142, 142, 142, 0.2);
+    width: 100%;
+    box-sizing: border-box;
+    height: 75px;
   }
 
   .nav-row img {
-    width: 5.2rem;
+    width: 3.6rem;
   }
 
   .list {
     display: flex;
     list-style: none;
     gap: 2.4rem;
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 
   .tool-bar a {
@@ -379,21 +415,21 @@
     display: flex;
     justify-content: flex-end;
     gap: 2.4rem;
-    height: 4.8rem;
+    height: 3.6rem;
     background-color: #3e3e3e;
     align-items: center;
     padding-right: 1.5rem;
   }
 
   .tool-bar-icon {
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 1.6rem;
+    height: 1.6rem;
     color: #fff;
   }
 
   .tool-bar p {
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 0.8rem;
   }
 
   .load-more,
@@ -430,17 +466,34 @@
     width: 9.6rem;
   }
 
+  /* Footer */
+
   .footer {
-    gap: 3.6rem;
-    padding: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.8rem;
+    padding: 1.8rem;
   }
 
-  .footer p {
-    font-size: 1.6rem;
+  .footer-container:first-child {
+    width: 40%;
   }
 
-  .footer img {
-    width: 9.6rem;
+  .footer-container:last-child {
+    width: 60%;
+    display: block;
+  }
+
+  .footer-container p:last-child {
+    display: block;
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+
+  .footer-container:last-child p:first-child {
+    font-size: 1.5rem;
+    font-weight: 700;
   }
 
   *:focus {
@@ -507,63 +560,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .artistCard {
+  .attendingArtists {
     width: 80%;
     min-width: 1280px;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-  }
-
-  .partners-section {
-    padding: 8.4rem 3.2rem;
-  }
-
-  .partners-logo img {
-    width: 8.4rem;
-  }
-
-  .section-footer {
-    margin: 4.8rem 9.6rem;
-  }
-
-  .footer p {
-    font-size: 1.8rem;
-  }
-
-  .partners-heading {
-    font-size: 2.8rem;
-    margin-bottom: 3.6rem;
-  }
-
-  .primary-header {
-    font-size: 2.8rem;
-    margin-bottom: 2.4rem;
-  }
-
-  .headline-info {
-    font-size: 3.8rem;
-  }
-
-  .concert-duration {
-    font-size: 2.75rem;
-  }
-
-  .nav-image {
-    width: 9.6rem;
-  }
-
-  .contact-info {
-    font-size: 2.4rem;
-  }
-
-  .date,
-  .text {
-    font-size: 2.4rem;
-  }
-
-  .artist-section {
-    width: 1200px;
-    margin: 0 auto;
   }
 }
