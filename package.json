@@ -574,7 +574,7 @@
     "validate-npm-package-name": "^4.0.0",
     "vfile": "^4.2.1",
     "vfile-message": "^2.0.4",
-    "vm2": "^3.9.11",
+    "vm2": "^3.9.17",
     "w3c-xmlserializer": "^4.0.0",
     "wcwidth": "^1.0.1",
     "webidl-conversions": "^7.0.0",
