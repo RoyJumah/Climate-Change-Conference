@@ -1,8 +1,8 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+
 <a name="readme-top"></a>
 
 <div align="center">
-  <h2><b>Coachella Capstone project</b></h2>
+  <h2><b>Climate Change Conference</b></h2>
 
 </div>
 
@@ -13,7 +13,8 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Leaderboard\] ](#-coachella-)
+- [📖 \[climate-change-conference\] ](#-climate-change-conference-)
+- [Preview](#-preview)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -32,9 +33,26 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Coachella-Capstone-Project] <a name="about-project"></a>
+# 📖 [Climate_Change_Conference] <a name="about-project"></a>
 
-**[Coachella-Capstone-Project]** This is a project built with HTML, CSS and JavaScript that mocks an annual concert held in the Americas, it comprises of two pages, the homepage and the about page
+**[Climate Change Conference]**  is a mock conference website that showcases famous activists and allows users to book tickets and view schedules. Developed using HTML, CSS, and JavaScript.
+
+<!-- PREVIEW-->
+### Preview <a name="preview"></a>
+<table style="border-collapse: collapse; border: 0;">
+  <tr>
+    <td><img src="https://github.com/RoyJumah/Climate-Change-Conference/assets/61903079/40fed655-ca12-4bd7-8231-8e2a330b34b6"></td>
+    <td><img src="https://github.com/RoyJumah/Climate-Change-Conference/assets/61903079/ce69f01c-c2bf-49af-9d2d-007e09cd8959"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/RoyJumah/Climate-Change-Conference/assets/61903079/6d88627d-0c5f-40af-82e7-8df3f185e766"></td>
+    <td><img src="https://github.com/RoyJumah/Climate-Change-Conference/assets/61903079/f60c082e-edc2-4668-90a8-c8efeb1dd996"></td>
+  </tr>
+  
+</table>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,29 +69,24 @@
 ### Key Features <a name="key-features"></a>
 
 - **Displaying artists set to feature in the mock event**
-- **Provide past event showcases for the mock event**
-
+- **Provides a page where the users will be able to book a ticket**     
+- **Provides a page where the users will be able to view the schedule** 
+      
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://royjumah.github.io/Coachella-Capstone-project/)
+- [Live Demo Link](https://climatechangeconference.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-### Prerequisites
-
-In order to run this project you need:
-
-```sh
- $ sudo apt install node
-```
+      
+To get a local copy up and running, follow these steps.
 
 ### Setup
 
@@ -81,25 +94,18 @@ Clone this repository to your desired folder:
 
 ```sh
  $ cd my-folder
- $ git clone https://github.com/RoyJumah/Coachella-Capstone-project.git
+ $ git clone https://github.com/RoyJumah/Climate-Change-Conference.git
 ```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
+      
+### Install  
+- Install this project with:
+ ```sh
+  $ cd my-project
   $ npm install
-  $ npm run start
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  $ npm run test
-```
+```      
+      
+### Usage
+To run the project, use any live server or open the index.html file in the project's folder
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +153,7 @@ If you like this project you can give it a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for the inspiration
+I would like to thank [Cindy Shin](https://www.behance.net/adagio07) for this [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015?moduleId=192118207&action=moodboard)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
