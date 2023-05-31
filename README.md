@@ -131,7 +131,7 @@ To run the project, use any live server or open the index.html file in the proje
 
 ## 🔭 Future Features <a name="future-features"></a>
       
-- [x] **Allow users to log in and log out, and display prices for the tickets.**
+- [ ] **Allow users to log in and log out, and display prices for the tickets.**
 - [ ] **Show each user's name, avatar, and other personal information.**
 - [ ] **Display some previews from the previous showcases.**
 
