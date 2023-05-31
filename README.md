@@ -19,9 +19,10 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
+  - [🚀 Walkthrough Video ](#-walkthrough-video-)
   - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
     - [Setup](#setup)
+    - [Install](#install)
     - [Usage](#usage)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
@@ -59,7 +60,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
   <ul>
-    <li><a href="https://www.javatpoint.com/javascript-tutorial>JavaScript</a></li>
+    <li><a href="https://www.javatpoint.com/javascript-tutorial">JavaScript</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
     <li><a href="https://www.freecodecamp.org/news/tag/html/">HTML</a></li>
   </ul>
@@ -68,7 +69,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Displaying artists set to feature in the mock event**
+- **Displaying acivists set to feature in the mock event**
 - **Provides a page where the users will be able to book a ticket**     
 - **Provides a page where the users will be able to view the schedule** 
       
@@ -82,6 +83,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+# Walkthrough Video <a name='walkthrough-video'></a>
+
+- [Walkthrough Video Link](https://www.loom.com/share/f32b90091b5b4e828fc27730dff556ec)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -125,7 +131,7 @@ To run the project, use any live server or open the index.html file in the proje
 
 ## 🔭 Future Features <a name="future-features"></a>
       
-- [ ] **Allow users to log in and log out, and display prices for the tickets.**
+- [x] **Allow users to log in and log out, and display prices for the tickets.**
 - [ ] **Show each user's name, avatar, and other personal information.**
 - [ ] **Display some previews from the previous showcases.**
 
@@ -137,7 +143,7 @@ To run the project, use any live server or open the index.html file in the proje
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/RoyJumah/Coachella-Capstone-project.git).
+Feel free to check the [issues page](https://github.com/RoyJumah/Climate-Change-Conference/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
